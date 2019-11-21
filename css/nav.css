@@ -16,7 +16,7 @@
 }
 
 .nav--links a{
-    border: rgb(255, 190, 50) 2px solid;
+    border: rgb(255, 190, 50) 2xpx solid;
     padding: 10px;
     color:white;
     justify-content: center;
