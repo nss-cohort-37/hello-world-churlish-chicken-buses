@@ -1,1 +1,13 @@
 @import "nav.css";
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large
+}
+
+.country--img {
+    width: 1500px;
+    height: 900px;
+}
