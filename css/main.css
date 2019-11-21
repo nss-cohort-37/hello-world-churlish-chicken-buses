@@ -1,19 +1,12 @@
-@import 'lists.css';
-@import 'nav.css';
-@import 'header.css';
-
-
-body {
-    background-color: rgb(228, 227, 227);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.listies--title {
-    color: rgb(34, 58, 58);
-}
 
 h1 {
-    color: rgb(34, 58, 58);
+    text-decoration: underline;
     text-align: center;
-    font-family:;
+    font-family: cursive;
+    font-size: xx-large
+}
+
+.country--img {
+    width: 1500px;
+    height: 900px;
 }
