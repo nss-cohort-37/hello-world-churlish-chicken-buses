@@ -1,18 +1,23 @@
 const citiesCollection = [
     {
-        cityName: "Rome"
+        cityName: "Rome",
+        population: "100000"
     },
     {
-        cityName: "Florence"
+        cityName: "Florence",
+        population: "200000"
     },
     {
-        cityName: "Venice"
+        cityName: "Venice",
+        population: "300000"
     },
     {
-        cityName: "Milan"
+        cityName: "Milan",
+        population: "400000"
     }, 
     {
-        cityName: "Napels"
+        cityName: "Napels",
+        population: "500000"
     }, 
 ]
 
