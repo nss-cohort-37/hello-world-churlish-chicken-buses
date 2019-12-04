@@ -15,9 +15,9 @@ const initializeDetailButtonEvents = () => {
     // CAN'T TOUCH THIS - END
 
 
-    const allDialogButtons = document.querySelectorAll("button[id^='city--']")
+    const cityDialogButtons = document.querySelectorAll("button[id^='city--']")
 
-    for (const btn of allDialogButtons) {
+    for (const btn of cityDialogButtons) {
         btn.addEventListener(
             "click",
             evt => {
@@ -27,6 +27,21 @@ const initializeDetailButtonEvents = () => {
             }
         )
     }
+
+
+    const landmarkDialogButtons = document.querySelectorAll("button[id^='landmark--']")
+
+    for (const btn of landmarkDialogButtons) {
+        btn.addEventListener(
+            "click",
+            evt => {
+                const dialogSiblingSelector = `#${evt.target.id}+dialog`
+                const theDialog = document.querySelector(dialogSiblingSelector)
+                theDialog.showModal()
+            }
+        )
+    }
+
 
 
 
