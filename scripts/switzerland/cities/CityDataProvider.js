@@ -1,22 +1,27 @@
 const citiesCollection = [
     {
-        cityName: "Bern"
+        cityName: "Bern",
+        cityPopulation: 10
     },
 
     {   
-        cityName: "Lucerne"
+        cityName: "Lucerne",
+        cityPopulation: 50
     },
 
     {   
-        cityName: "Geneva"
+        cityName: "Geneva",
+        cityPopulation: 100
     },
 
     {   
-        cityName: "Lugano"
+        cityName: "Lugano",
+        cityPopulation: 1000
     },
 
     {   
-        cityName: "Zurich"
+        cityName: "Zurich",
+        cityPopulation: 200
     }
 ]
 
