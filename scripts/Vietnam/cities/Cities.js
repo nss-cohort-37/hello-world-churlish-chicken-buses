@@ -20,7 +20,7 @@ contentElement.innerHTML += `
         // fishes.map(fish => FishComponent(fish)).join("")
     }
     </ul>
-</section>
+    </section>
 `
 }
 
