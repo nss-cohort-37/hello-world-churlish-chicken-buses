@@ -30,6 +30,18 @@ const initializeDetailButtonEvents = () => {
             }
         )
     }
+const nextDialogButtons = document.querySelectorAll("button[id^='landmark--']")
+
+for (const btn of nextDialogButtons) {
+    btn.addEventListener(
+        "click",
+        evt => {
+            const dialogSiblingSelector = `#${evt.target.id}+dialog`
+            const theDialog = document.querySelector(dialogSiblingSelector)
+            theDialog.showModal()
+        }
+    )
+}
 
 
 
